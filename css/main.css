@@ -1,0 +1,48 @@
+body {
+    background: red;
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+nav {
+    background: blue;
+    flex:1;
+
+}
+.container {    
+    background: green;
+    flex:2;
+    justify-content:space-between;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+    
+}
+.box {
+    background: white;
+    width: 25%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid yellow   
+}
+footer {
+    flex: 2;
+
+}
+footer,
+nav {
+    font-size: 30px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration:underline;
+    text-transform: uppercase;
+    
+}
